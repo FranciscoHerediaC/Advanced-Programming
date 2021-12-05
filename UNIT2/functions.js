@@ -19,7 +19,7 @@ function getName(firstName, lastName){
 }
 
 function sayHello(callback){
-    console.log(`Hello ${callback(first, last)}`);
+    console.log(`Hello ${callback(first, last)}`);git
 }
 
 sayHello(getName, "Luis","Gerardo");

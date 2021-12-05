@@ -21,11 +21,16 @@ console.log(Boolean(false));
 //True Values
 console.log(Boolean("Luis"));
 console.log(Boolean(5));
-console.log(Boolean(""));
-console.log(Boolean(""));
+console.log(Boolean({key:"5"}));
+console.log(Boolean([]));
 
-console.log(Boolean(""));
+console.log(typeof myNull);
 
-console.log(Boolean(""));
+console.log( isNaN(Number("5x")));
+
+//Type Casting Expl Meths
+
+console.log(Number.parseInt(myFloat));
+console.log(Number.parseInt(myInt));
 
 

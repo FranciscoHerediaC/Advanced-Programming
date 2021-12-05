@@ -2,7 +2,7 @@
 const fs = require("fs");
 const chalk = require("chalk");
 
-const InitialMessage = chalk.blue("App running...")
+const InitialMessage = chalk.blue("App running...");
 
 console.log( InitialMessage );
 

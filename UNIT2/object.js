@@ -1,8 +1,9 @@
-cons myObj = {
+const myObj = {
     name: "Luis",
     age: 24,
-};
-
-for (let {key, value} of {Object.keys(myObj), Object.values(myObj)}){
-    console.log(i);
+    greeting: function(message){
+        console.log(`this is equal: ${JSONthis}`);
+        console.log(`${message} soy ${this.name} y tengo ${this.age}`);
+        console.log(message);
+    }
 };
